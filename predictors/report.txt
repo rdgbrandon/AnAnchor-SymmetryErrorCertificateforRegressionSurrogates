@@ -1,0 +1,81 @@
+HISTORICAL COMPARISON: conformal/Jackknife+ claims are superseded.
+Read ../fair_baselines/report.txt and ../week3_followup/report.txt.
+The old jackknife_plus field is a residual quantile, not a jackknife+ interval.
+
+FOURTEEN ERROR-PREDICTORS AND TWO REFERENCES, SCORED AGAINST THE MEASURED ERROR
+rows 399   representations ctr12,ctrshape,pist12   protocol 6aca6aef57b6
+Four distinct test trials; within-model correlations rest on 3-4 points.
+
+mean e = 19.79   e range 2.02 - 366.19
+
+=== rank correlation with the measured error ===
+within-trial: across the 19 surrogate fits, "which model is worse" (n=19 each)
+within-model: across test trials for one fit, "which input is harder" (n=3-4 each)
+method              within-trial  within-model      claims    median p/e    n rows
+----------------------------------------------------------------------------------
+sases_consensus            0.790         0.328       lower          0.70       399
+sases_ceiling              0.781         0.330       lower          0.70       399
+defect_raw                 0.777         0.611      signal          1.28       399
+law_gap_train              0.325         0.628      signal          1.39       399
+seed_ensemble        cannot rank         0.548      signal          0.29       399
+jackknife_plus             0.298   cannot rank       upper          0.41       399
+loto_slope                 0.136         0.575      signal          1.24       399
+loto_conformal             0.018   cannot rank       upper          0.54       399
+insample_rmse             -0.246   cannot rank      signal          0.04       399
+leverage                  -0.246         0.548      signal          0.04       399
+bootstrap_trials          -0.256         0.114      signal          0.38       399
+family_ensemble           -0.756         0.548      signal          2.01       399
+gp_sigma             cannot rank   cannot rank      signal          0.45       399
+blr_sigma            cannot rank         0.548      signal          0.47       399
+distance             cannot rank         0.548      signal          0.14       399
+constant             cannot rank   cannot rank      signal          0.09       399
+
+=== per representation, within-trial rank correlation ===
+method                   ctr12    ctrshape      pist12
+------------------------------------------------------
+sases_consensus          0.776       0.782       0.811
+sases_ceiling            0.755       0.778       0.808
+defect_raw               0.761       0.770       0.799
+law_gap_train            0.586      -0.450       0.839
+seed_ensemble      cannot rank cannot rank cannot rank
+jackknife_plus           0.077       0.518       0.299
+loto_slope               0.131       0.074       0.203
+loto_conformal           0.302       0.022      -0.269
+insample_rmse           -0.200      -0.271      -0.266
+leverage                -0.200      -0.271      -0.266
+bootstrap_trials        -0.148      -0.457      -0.161
+family_ensemble         -0.918      -0.583      -0.766
+gp_sigma           cannot rank cannot rank cannot rank
+blr_sigma          cannot rank cannot rank cannot rank
+distance           cannot rank cannot rank cannot rank
+constant           cannot rank cannot rank cannot rank
+
+=== methods that claim a bound ===
+method                  side         holds    mean slack   worst slack
+----------------------------------------------------------------------
+sases_ceiling          lower         1.000          4.66         28.71
+sases_consensus        lower         1.000          4.57         28.71
+loto_conformal         upper         0.195         14.40        358.34
+jackknife_plus         upper         0.078         15.35        358.55
+
+=== does any method beat the no-information null on both axes? ===
+the null `constant` is undefined by construction (no variation), so the bar is
+a positive correlation on BOTH axes, not a comparison of two numbers.
+method              within-trial  within-model  both > 0
+--------------------------------------------------------
+sases_consensus            0.790         0.328       yes
+sases_ceiling              0.781         0.330       yes
+defect_raw                 0.777         0.611       yes
+law_gap_train              0.325         0.628       yes
+seed_ensemble        cannot rank         0.548        no
+jackknife_plus             0.298   cannot rank        no
+loto_slope                 0.136         0.575       yes
+loto_conformal             0.018   cannot rank        no
+insample_rmse             -0.246   cannot rank        no
+leverage                  -0.246         0.548        no
+bootstrap_trials          -0.256         0.114        no
+family_ensemble           -0.756         0.548        no
+gp_sigma             cannot rank   cannot rank        no
+blr_sigma            cannot rank         0.548        no
+distance             cannot rank         0.548        no
+constant             cannot rank   cannot rank        no

@@ -1,0 +1,67 @@
+ABLATION: WHAT EACH ERROR TERM BUYS
+46 cells from 3176 stored rows (392 on the canonical splits). protocol 161d53267a8a
+Re-slices existing rows; adds no evidence and no test trials.
+
+
+=== 1. The factorial, conformal b (legacy_loto) ===
+terms  = which allowances are subtracted from the defect D
+licens = validity restricted to rows where the premise beta >= ||zeta|| held
+terms         beta source         k   valid betacov  licens  S/e med   nonvac   worst+   abst
+---------------------------------------------------------------------------------------------
+D             -                   0   0.000    --      --      1.574    1.000     9.47      0
+D - b         -                   1   0.796    --      --      0.779    0.878     4.72      0
+D - beta      fitted kappa        1   0.619   0.667   0.714    0.981    0.952     1.25     28
+D - b - beta  fitted kappa        2   1.000   0.667   1.000    0.429    0.714    -3.42     28
+---------------------------------------------------------------------------------------------
+D - beta      2x declared         1   1.000   1.000   1.000    0.568    0.714    -1.16     28
+D - b - beta  2x declared         2   1.000   1.000   1.000    0.043    0.429    -3.42     28
+---------------------------------------------------------------------------------------------
+D - beta      theory slope        1   0.918   1.000   0.918    0.694    0.776     0.52      0
+D - b - beta  theory slope        2   1.000   1.000   1.000    0.123    0.551    -3.10      0
+---------------------------------------------------------------------------------------------
+D - beta      slope + boundary    1   1.000   1.000   1.000    0.633    0.755    -0.39      0
+D - b - beta  slope + boundary    2   1.000   1.000   1.000    0.062    0.408    -3.10      0
+---------------------------------------------------------------------------------------------
+
+=== 2. Same factorial with the labelled anchor error in place of conformal b ===
+terms         beta source         valid betacov  S/e med   nonvac
+-----------------------------------------------------------------
+D - b         -                   0.061    --      1.282    1.000
+D - b - beta  fitted kappa        1.000   0.667    0.862    0.810
+D - b - beta  2x declared         1.000   1.000    0.457    0.714
+D - b - beta  theory slope        1.000   1.000    0.589    0.714
+D - b - beta  slope + boundary    1.000   1.000    0.518    0.714
+
+
+=== 3. The safety multiplier on the fitted kappa (conformal b) ===
+m = 0 removes the law allowance entirely; m = 2 is the declared factor.
+m           valid  betacov   licens  S/e mean   S/e med   nonvac
+----------------------------------------------------------------
+0.0         0.796     --       --       0.750     0.779    0.878
+0.5         1.000    0.000     --       0.437     0.563    0.714
+1.0         1.000    0.667    1.000     0.311     0.429    0.714
+1.5         1.000    1.000    1.000     0.184     0.243    0.667
+2.0         1.000    1.000    1.000     0.073     0.043    0.429
+3.0         1.000    1.000    1.000     0.003     0.000    0.000
+
+
+=== 4. Anchor rule (sweep splits, 12 anchors, 2x declared beta) ===
+rule                                     valid betacov  S/e med   nonvac
+------------------------------------------------------------------------
+D - b - beta, every anchor pooled        1.000   0.925    0.196    0.753
+D - b - beta, max over anchors           1.000   0.862    0.375    1.000
+
+
+=== 5. Does any term improve the ranking of surrogates? ===
+Spearman of S against the measured error across the 7 surrogate fits at a
+fixed case. b varies across models, so subtracting it can reorder them; beta
+does not, and moves the ranking only through truncation at zero and through
+the abstained rows it removes.
+terms         beta source        rank rho
+-----------------------------------------
+D             -                     0.791
+D - b         -                     0.827
+D - beta      fitted kappa          0.821
+D - b - beta  fitted kappa          0.907
+D - beta      2x declared           0.826
+D - b - beta  2x declared           0.886

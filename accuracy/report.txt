@@ -1,0 +1,80 @@
+HOW ACCURATELY DOES THE CERTIFICATE REPORT EACH SURROGATE'S ERROR?
+931 rows, 19 surrogate fits, 7 representations. protocol 6bdedeb7c599
+Four distinct test trials; calibrated rows use test labels.
+
+
+=== 1. As a point estimate of the error ===
+S is a lower bound, so a negative bias is built in, not a defect.
+variant                              n     bias      MAE     RMSE  med|rel|
+---------------------------------------------------------------------------
+certificate (ceiling form)         931    -5.45     5.45     7.16     0.302
+certificate (multi-region)         931    -5.32     5.32     7.01     0.296
+best single region                 931    -5.32     5.32     7.01     0.296
+growth radius alone                931   -15.14    16.50    51.94     0.498
+oracle: the error itself           931     0.00     0.00     0.00     0.000
+
+=== 1b. After rescaling by a factor fitted leave-one-test-trial-out ===
+This reads test labels. It is an upper reference, not a deployable method.
+variant                              n     bias      MAE  med|rel|
+------------------------------------------------------------------
+certificate (ceiling form)         931     1.58     6.60     0.159
+certificate (multi-region)         931     1.73     6.52     0.157
+best single region                 931     1.73     6.52     0.157
+growth radius alone                931    -9.93    15.81     0.398
+oracle: the error itself           931     0.00     0.00     0.000
+
+
+=== 2. As an ordering of the 19 surrogates at each case ===
+variant                         correct    wrong  no call  of called    worst     top3
+--------------------------------------------------------------------------------------
+certificate (ceiling form)        0.840    0.122    0.038      0.873    1.000    0.639
+certificate (multi-region)        0.849    0.114    0.037      0.881    1.000    0.680
+best single region                0.849    0.114    0.037      0.881    1.000    0.680
+growth radius alone               0.000    0.000    1.000   all ties    0.000    0.429
+oracle: the error itself          0.982    0.000    0.018      1.000    1.000    1.000
+
+
+=== 3. As a detector: is this surrogate worse than the median? ===
+variant                            AUC  precision   recall   flagged base rate
+------------------------------------------------------------------------------
+certificate (ceiling form)       0.900      0.523    0.968     0.857     0.463
+certificate (multi-region)       0.905      0.518    0.968     0.865     0.463
+best single region               0.905      0.518    0.968     0.865     0.463
+growth radius alone              0.500      0.463    1.000     1.000     0.463
+oracle: the error itself         1.000      0.463    1.000     1.000     0.463
+
+
+=== 2b. Is the ordering carried by one catastrophic model? ===
+poly3 extrapolates a cubic and errs by 195-366, so naming the worst
+surrogate is trivial while it is in the pool.
+pool                        correct  of called    worst     top3      AUC
+-------------------------------------------------------------------------
+all 19 fits                   0.840      0.873    1.000    0.639    0.900
+poly3 excluded                0.821      0.858    0.612    0.571    0.915
+poly3 + krr_rbf excluded      0.855      0.889    0.633    0.667    0.927
+
+
+=== Per representation (ceiling-form certificate) ===
+repr            bias      MAE  med|rel|    order      AUC    worst
+------------------------------------------------------------------
+ctr12          -5.22     5.22     0.331    0.852    0.889    1.000
+ctr24w         -7.45     7.45     0.310    0.896    0.924    1.000
+ctrlin8        -6.04     6.04     0.309    0.903    0.915    1.000
+ctrshort       -5.26     5.26     0.293    0.861    0.908    1.000
+ctrmed         -5.41     5.41     0.294    0.822    0.847    1.000
+ctrshape       -1.78     1.78     0.267    0.888    0.900    1.000
+pist12         -6.97     6.97     0.389    0.893    0.917    1.000
+
+
+=== Per surrogate family: what the certificate says about each ===
+model            n    mean e    mean S       gap   S/e med   silent
+-------------------------------------------------------------------
+poly3           49    215.78    203.12     12.66     0.936    0.000
+rf200          147     14.51     11.07      3.44     0.776    0.000
+gbrt           147     14.51     11.07      3.44     0.776    0.000
+krr_rbf         49     14.04      3.48     10.56     0.078    0.469
+mlp32x32       147     13.89      5.38      8.51     0.395    0.293
+linear          49     13.36      8.11      5.24     0.646    0.082
+knn5            49     13.27      9.72      3.54     0.737    0.000
+mlp8           147     12.77      9.07      3.70     0.732    0.116
+mlp16x16       147      9.12      4.37      4.75     0.476    0.313

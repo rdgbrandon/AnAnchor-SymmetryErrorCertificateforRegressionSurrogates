@@ -1,0 +1,28 @@
+HOW OFTEN IS EACH SCORE ACTUALLY BELOW THE TRUE ERROR?
+below = fraction of rows with score <= e. A method can reach 1.000 by
+being trivially small, so read it with the two columns beside it.
+useful = below AND score > 1: below the error and still saying something.
+
+method              claims                below  score/e   speaks   useful    worst+
+------------------------------------------------------------------------------------
+jackknife_plus      upper (jackknife+)    0.922     0.41    1.000    0.922      4.78
+gp_sigma            none                  0.890     0.45    1.000    0.890      3.30
+blr_sigma           none                  0.885     0.47    1.000    0.885      3.71
+sases_consensus     lower (Prop. 1)       1.000     0.70    0.825    0.825     -0.46
+sases_ceiling       lower (Prop. 1)       1.000     0.70    0.820    0.820     -0.46
+loto_conformal      upper (conformal)     0.805     0.54    1.000    0.805      7.85
+seed_ensemble       none                  0.857     0.29    0.667    0.524     11.95
+bootstrap_trials    none                  0.774     0.38    0.734    0.509    395.11
+loto_slope          none                  0.411     1.24    0.947    0.358     68.62
+insample_rmse       none                  1.000     0.04    0.263    0.263     -1.57
+leverage            none                  1.000     0.04    0.263    0.263     -1.56
+defect_raw          none                  0.248     1.28    1.000    0.248     10.84
+law_gap_train       none                  0.246     1.39    0.947    0.193     10.48
+family_ensemble     none                  0.090     2.01    1.000    0.090     38.15
+------------------------------------------------------------------------------------
+not in the units of the error, so not comparable to e and not ranked:
+distance            none                  1.000     0.14  (log-power)
+constant            none                  1.000     0.09  (dimensionless)
+------------------------------------------------------------------------------------
+sases_ceiling (931-rlower (Prop. 1)       1.000     0.70    0.857    0.857     -0.46
+sases_consensus (931lower (Prop. 1)       1.000     0.70    0.865    0.865     -0.46

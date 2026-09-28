@@ -1,0 +1,498 @@
+{
+  "rows": [
+    {
+      "dataset": "ctr12",
+      "config": "canonical_146",
+      "trial": "_57_1",
+      "idealized_rate": 15.796528953085708,
+      "residual": 2.4027638508232596,
+      "delta": 0.27388875031944515,
+      "premise_holds": true,
+      "residual_to_radius": 0.55536080668011
+    },
+    {
+      "dataset": "ctr12",
+      "config": "canonical_146",
+      "trial": "_60_1",
+      "idealized_rate": 15.796528953085708,
+      "residual": 5.441231700283697,
+      "delta": 0.5378542961539097,
+      "premise_holds": true,
+      "residual_to_radius": 0.6404288824996137
+    },
+    {
+      "dataset": "ctr12",
+      "config": "canonical_146",
+      "trial": "_63_1",
+      "idealized_rate": 15.796528953085708,
+      "residual": 7.251290512487055,
+      "delta": 0.7201758529478646,
+      "premise_holds": true,
+      "residual_to_radius": 0.6374044356508778
+    },
+    {
+      "dataset": "ctr12",
+      "config": "canonical_146",
+      "trial": "_66_1",
+      "idealized_rate": 15.796528953085708,
+      "residual": 8.9975640523779,
+      "delta": 0.8743265327751226,
+      "premise_holds": true,
+      "residual_to_radius": 0.6514627995604632
+    },
+    {
+      "dataset": "ctr12",
+      "config": "canonical_192",
+      "trial": "_60_1",
+      "idealized_rate": 11.925867828418056,
+      "residual": 2.025215060514876,
+      "delta": 0.2639655458344645,
+      "premise_holds": true,
+      "residual_to_radius": 0.6433301603900183
+    },
+    {
+      "dataset": "ctr12",
+      "config": "canonical_192",
+      "trial": "_63_1",
+      "idealized_rate": 11.925867828418056,
+      "residual": 3.2198897301251117,
+      "delta": 0.4462871026284194,
+      "premise_holds": true,
+      "residual_to_radius": 0.6049739449171566
+    },
+    {
+      "dataset": "ctr12",
+      "config": "canonical_192",
+      "trial": "_66_1",
+      "idealized_rate": 11.925867828418056,
+      "residual": 4.44773646060315,
+      "delta": 0.6004377824556775,
+      "premise_holds": true,
+      "residual_to_radius": 0.6211279066763423
+    },
+    {
+      "dataset": "ctr24w",
+      "config": "canonical_146",
+      "trial": "_57_1",
+      "idealized_rate": 25.180654284528732,
+      "residual": 4.115789076993498,
+      "delta": 0.27388875031944515,
+      "premise_holds": true,
+      "residual_to_radius": 0.596776764221389
+    },
+    {
+      "dataset": "ctr24w",
+      "config": "canonical_146",
+      "trial": "_60_1",
+      "idealized_rate": 25.180654284528732,
+      "residual": 9.296540551225428,
+      "delta": 0.5378542961539097,
+      "premise_holds": true,
+      "residual_to_radius": 0.6864196628584357
+    },
+    {
+      "dataset": "ctr24w",
+      "config": "canonical_146",
+      "trial": "_63_1",
+      "idealized_rate": 25.180654284528732,
+      "residual": 12.383991582384667,
+      "delta": 0.7201758529478646,
+      "premise_holds": true,
+      "residual_to_radius": 0.6828968068769024
+    },
+    {
+      "dataset": "ctr24w",
+      "config": "canonical_146",
+      "trial": "_66_1",
+      "idealized_rate": 25.180654284528732,
+      "residual": 15.251806520306735,
+      "delta": 0.8743265327751226,
+      "premise_holds": true,
+      "residual_to_radius": 0.6927565152459972
+    },
+    {
+      "dataset": "ctr24w",
+      "config": "canonical_192",
+      "trial": "_60_1",
+      "idealized_rate": 18.600028137732057,
+      "residual": 3.410463915912369,
+      "delta": 0.2639655458344645,
+      "premise_holds": true,
+      "residual_to_radius": 0.6946285246768111
+    },
+    {
+      "dataset": "ctr24w",
+      "config": "canonical_192",
+      "trial": "_63_1",
+      "idealized_rate": 18.600028137732057,
+      "residual": 5.353947599983227,
+      "delta": 0.4462871026284194,
+      "premise_holds": true,
+      "residual_to_radius": 0.6449798975071191
+    },
+    {
+      "dataset": "ctr24w",
+      "config": "canonical_192",
+      "trial": "_66_1",
+      "idealized_rate": 18.600028137732057,
+      "residual": 7.263246725159569,
+      "delta": 0.6004377824556775,
+      "premise_holds": true,
+      "residual_to_radius": 0.6503530531145815
+    },
+    {
+      "dataset": "ctrlin8",
+      "config": "canonical_146",
+      "trial": "_57_1",
+      "idealized_rate": 18.63174063281878,
+      "residual": 2.8498074520355927,
+      "delta": 0.27388875031944515,
+      "premise_holds": true,
+      "residual_to_radius": 0.5584546268425861
+    },
+    {
+      "dataset": "ctrlin8",
+      "config": "canonical_146",
+      "trial": "_60_1",
+      "idealized_rate": 18.63174063281878,
+      "residual": 6.500469250333293,
+      "delta": 0.5378542961539097,
+      "premise_holds": true,
+      "residual_to_radius": 0.6486742172487209
+    },
+    {
+      "dataset": "ctrlin8",
+      "config": "canonical_146",
+      "trial": "_63_1",
+      "idealized_rate": 18.63174063281878,
+      "residual": 8.747430196785505,
+      "delta": 0.7201758529478646,
+      "premise_holds": true,
+      "residual_to_radius": 0.6519112865176758
+    },
+    {
+      "dataset": "ctrlin8",
+      "config": "canonical_146",
+      "trial": "_66_1",
+      "idealized_rate": 18.63174063281878,
+      "residual": 10.774591547215449,
+      "delta": 0.8743265327751226,
+      "premise_holds": true,
+      "residual_to_radius": 0.6614145245687333
+    },
+    {
+      "dataset": "ctrlin8",
+      "config": "canonical_192",
+      "trial": "_60_1",
+      "idealized_rate": 14.02105282679118,
+      "residual": 2.435337561391187,
+      "delta": 0.2639655458344645,
+      "premise_holds": true,
+      "residual_to_radius": 0.6580081872977344
+    },
+    {
+      "dataset": "ctrlin8",
+      "config": "canonical_192",
+      "trial": "_63_1",
+      "idealized_rate": 14.02105282679118,
+      "residual": 3.8636221118687484,
+      "delta": 0.4462871026284194,
+      "premise_holds": true,
+      "residual_to_radius": 0.6174469946482819
+    },
+    {
+      "dataset": "ctrlin8",
+      "config": "canonical_192",
+      "trial": "_66_1",
+      "idealized_rate": 14.02105282679118,
+      "residual": 5.193720533211433,
+      "delta": 0.6004377824556775,
+      "premise_holds": true,
+      "residual_to_radius": 0.6169215473583844
+    },
+    {
+      "dataset": "ctrshort",
+      "config": "canonical_146",
+      "trial": "_57_1",
+      "idealized_rate": 17.634886981596786,
+      "residual": 2.575021522294175,
+      "delta": 0.27388875031944515,
+      "premise_holds": true,
+      "residual_to_radius": 0.5331310637194552
+    },
+    {
+      "dataset": "ctrshort",
+      "config": "canonical_146",
+      "trial": "_60_1",
+      "idealized_rate": 17.634886981596786,
+      "residual": 5.9516492558720495,
+      "delta": 0.5378542961539097,
+      "premise_holds": true,
+      "residual_to_radius": 0.6274801716687609
+    },
+    {
+      "dataset": "ctrshort",
+      "config": "canonical_146",
+      "trial": "_63_1",
+      "idealized_rate": 17.634886981596786,
+      "residual": 7.971189375406721,
+      "delta": 0.7201758529478646,
+      "premise_holds": true,
+      "residual_to_radius": 0.6276418453773356
+    },
+    {
+      "dataset": "ctrshort",
+      "config": "canonical_146",
+      "trial": "_66_1",
+      "idealized_rate": 17.634886981596786,
+      "residual": 10.059405510886346,
+      "delta": 0.8743265327751226,
+      "premise_holds": true,
+      "residual_to_radius": 0.6524180637118755
+    },
+    {
+      "dataset": "ctrshort",
+      "config": "canonical_192",
+      "trial": "_60_1",
+      "idealized_rate": 13.496934274308558,
+      "residual": 2.2846891401176084,
+      "delta": 0.2639655458344645,
+      "premise_holds": true,
+      "residual_to_radius": 0.6412756361282135
+    },
+    {
+      "dataset": "ctrshort",
+      "config": "canonical_192",
+      "trial": "_63_1",
+      "idealized_rate": 13.496934274308558,
+      "residual": 3.5957780947579736,
+      "delta": 0.4462871026284194,
+      "premise_holds": true,
+      "residual_to_radius": 0.5969575003189813
+    },
+    {
+      "dataset": "ctrshort",
+      "config": "canonical_192",
+      "trial": "_66_1",
+      "idealized_rate": 13.496934274308558,
+      "residual": 5.095595054403913,
+      "delta": 0.6004377824556775,
+      "premise_holds": true,
+      "residual_to_radius": 0.6287699271584744
+    },
+    {
+      "dataset": "ctrmed",
+      "config": "canonical_146",
+      "trial": "_57_1",
+      "idealized_rate": 16.551170702189403,
+      "residual": 2.384393399403183,
+      "delta": 0.27388875031944515,
+      "premise_holds": true,
+      "residual_to_radius": 0.5259869856181117
+    },
+    {
+      "dataset": "ctrmed",
+      "config": "canonical_146",
+      "trial": "_60_1",
+      "idealized_rate": 16.551170702189403,
+      "residual": 5.633852984113326,
+      "delta": 0.5378542961539097,
+      "premise_holds": true,
+      "residual_to_radius": 0.6328665621099898
+    },
+    {
+      "dataset": "ctrmed",
+      "config": "canonical_146",
+      "trial": "_63_1",
+      "idealized_rate": 16.551170702189403,
+      "residual": 7.556674388804421,
+      "delta": 0.7201758529478646,
+      "premise_holds": true,
+      "residual_to_radius": 0.6339623049184379
+    },
+    {
+      "dataset": "ctrmed",
+      "config": "canonical_146",
+      "trial": "_66_1",
+      "idealized_rate": 16.551170702189403,
+      "residual": 9.57787313923969,
+      "delta": 0.8743265327751226,
+      "premise_holds": true,
+      "residual_to_radius": 0.6618608682168153
+    },
+    {
+      "dataset": "ctrmed",
+      "config": "canonical_192",
+      "trial": "_60_1",
+      "idealized_rate": 12.747663585338673,
+      "residual": 2.2673282038669758,
+      "delta": 0.2639655458344645,
+      "premise_holds": true,
+      "residual_to_radius": 0.6738086041719258
+    },
+    {
+      "dataset": "ctrmed",
+      "config": "canonical_192",
+      "trial": "_63_1",
+      "idealized_rate": 12.747663585338673,
+      "residual": 3.577825941779325,
+      "delta": 0.4462871026284194,
+      "premise_holds": true,
+      "residual_to_radius": 0.628889405727939
+    },
+    {
+      "dataset": "ctrmed",
+      "config": "canonical_192",
+      "trial": "_66_1",
+      "idealized_rate": 12.747663585338673,
+      "residual": 5.057714823958339,
+      "delta": 0.6004377824556775,
+      "premise_holds": true,
+      "residual_to_radius": 0.6607782389186466
+    },
+    {
+      "dataset": "ctrshape",
+      "config": "canonical_146",
+      "trial": "_57_1",
+      "idealized_rate": 9.951868874133401,
+      "residual": 1.7102884330427746,
+      "delta": 0.27388875031944515,
+      "premise_holds": true,
+      "residual_to_radius": 0.6274664636919958
+    },
+    {
+      "dataset": "ctrshape",
+      "config": "canonical_146",
+      "trial": "_60_1",
+      "idealized_rate": 9.951868874133401,
+      "residual": 3.9027816042056145,
+      "delta": 0.5378542961539097,
+      "premise_holds": true,
+      "residual_to_radius": 0.729129990933115
+    },
+    {
+      "dataset": "ctrshape",
+      "config": "canonical_146",
+      "trial": "_63_1",
+      "idealized_rate": 9.951868874133401,
+      "residual": 5.7429574387167985,
+      "delta": 0.7201758529478646,
+      "premise_holds": true,
+      "residual_to_radius": 0.8012949338588848
+    },
+    {
+      "dataset": "ctrshape",
+      "config": "canonical_146",
+      "trial": "_66_1",
+      "idealized_rate": 9.951868874133401,
+      "residual": 7.390633091953017,
+      "delta": 0.8743265327751226,
+      "premise_holds": true,
+      "residual_to_radius": 0.8493825593263463
+    },
+    {
+      "dataset": "ctrshape",
+      "config": "canonical_192",
+      "trial": "_60_1",
+      "idealized_rate": 7.267910090399564,
+      "residual": 1.4992519162794895,
+      "delta": 0.2639655458344645,
+      "premise_holds": true,
+      "residual_to_radius": 0.7814799180948039
+    },
+    {
+      "dataset": "ctrshape",
+      "config": "canonical_192",
+      "trial": "_63_1",
+      "idealized_rate": 7.267910090399564,
+      "residual": 2.8572695856909256,
+      "delta": 0.4462871026284194,
+      "premise_holds": true,
+      "residual_to_radius": 0.8809014726249766
+    },
+    {
+      "dataset": "ctrshape",
+      "config": "canonical_192",
+      "trial": "_66_1",
+      "idealized_rate": 7.267910090399564,
+      "residual": 4.086598167637017,
+      "delta": 0.6004377824556775,
+      "premise_holds": true,
+      "residual_to_radius": 0.9364495331474882
+    },
+    {
+      "dataset": "pist12",
+      "config": "canonical_146",
+      "trial": "_57_1",
+      "idealized_rate": null,
+      "residual": 3.411794907800051,
+      "delta": 0.27388875031944515,
+      "premise_holds": null,
+      "residual_to_radius": null
+    },
+    {
+      "dataset": "pist12",
+      "config": "canonical_146",
+      "trial": "_60_1",
+      "idealized_rate": null,
+      "residual": 7.161212610174399,
+      "delta": 0.5378542961539097,
+      "premise_holds": null,
+      "residual_to_radius": null
+    },
+    {
+      "dataset": "pist12",
+      "config": "canonical_146",
+      "trial": "_63_1",
+      "idealized_rate": null,
+      "residual": 9.235851976148833,
+      "delta": 0.7201758529478646,
+      "premise_holds": null,
+      "residual_to_radius": null
+    },
+    {
+      "dataset": "pist12",
+      "config": "canonical_146",
+      "trial": "_66_1",
+      "idealized_rate": null,
+      "residual": 11.212880049930732,
+      "delta": 0.8743265327751226,
+      "premise_holds": null,
+      "residual_to_radius": null
+    },
+    {
+      "dataset": "pist12",
+      "config": "canonical_192",
+      "trial": "_60_1",
+      "idealized_rate": null,
+      "residual": 2.424600387229807,
+      "delta": 0.2639655458344645,
+      "premise_holds": null,
+      "residual_to_radius": null
+    },
+    {
+      "dataset": "pist12",
+      "config": "canonical_192",
+      "trial": "_63_1",
+      "idealized_rate": null,
+      "residual": 3.6153714667434618,
+      "delta": 0.4462871026284194,
+      "premise_holds": null,
+      "residual_to_radius": null
+    },
+    {
+      "dataset": "pist12",
+      "config": "canonical_192",
+      "trial": "_66_1",
+      "idealized_rate": null,
+      "residual": 4.826083520951276,
+      "delta": 0.6004377824556775,
+      "premise_holds": null,
+      "residual_to_radius": null
+    }
+  ],
+  "status": "Conditional derivation only; gamma, eta, ceiling noise and inertial-range assumptions unverified.",
+  "measured_eta": null,
+  "measured_gamma_bounds": null,
+  "population_guarantee": false
+}

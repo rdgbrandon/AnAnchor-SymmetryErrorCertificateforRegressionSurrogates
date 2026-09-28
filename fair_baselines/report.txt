@@ -1,0 +1,23 @@
+EQUAL-LABEL BASELINE RERUN
+Rows: 399; distinct physical test trials: 4
+Every method gets the same 3 or 4 law-calibration labels; surrogate TRAIN remains fixed.
+Jackknife+ is applied to scalar error regression for the frozen surrogate.
+Strict 90% conformal and general-guarantee-90% jackknife+ have no finite upper bounds.
+Their observed coverage is vacuous, not a claim about extrapolation coverage.
+
+method                         finite    bound holds    mean within-trial rho
+sases                          1.000     1.000          0.790
+raw_defect                     1.000     -              0.777
+conformal_upper                0.000     1.000          -
+jackknife_upper                0.000     1.000          -
+jackknife_nominal_upper        0.000     1.000          -
+sample_max_heuristic           1.000     -              0.878
+ols_error_heuristic            1.000     -              0.838
+
+Finite sample maximum and OLS are heuristics, not conformal guarantees.
+Upper and lower bounds answer different questions; do not rank their validity percentages as competitors.
+The historical predictors/report.txt jackknife_plus entry is a residual quantile, not jackknife+.
+This report supersedes its conformal/Jackknife+ comparison; historical artifacts are retained.
+Finite 90% split-conformal bounds need at least 9 calibration trials.
+This jackknife+ general-90% construction needs at least 19 for finite endpoint ranks.
+Neither sample-size threshold fixes nonexchangeable extrapolation.

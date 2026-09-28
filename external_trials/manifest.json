@@ -1,0 +1,538 @@
+{
+  "doi": "10.6075/J0K07581",
+  "source": "https://library.ucsd.edu/dc/object/bb9811148n",
+  "attribution": "Zhang, Lei; Kim, Hyeonghun; Kramer, Boris; Friend, James (2026). Water Surface Data. UC San Diego Library Digital Collections.",
+  "license": "CC BY 4.0",
+  "date_collected": "2025-08 to 2025-12",
+  "checked_utc": "2026-09-22T00:25:11.605974+00:00",
+  "metadata_sha256": "5570e9ee2bf4d8976eb7c3bffa80091c397a2ea3e3e1d1bf48d6641779d55a6b",
+  "archives": [
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_1_1.zip/download",
+      "ca": 0.0,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "187192807777",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1054,
+      "prefix_members": [
+        "water_0/0_params.md",
+        "water_0/rep1/",
+        "water_0/rep10/",
+        "water_0/rep11/",
+        "water_0/rep12/",
+        "water_0/rep13/",
+        "water_0/rep14/",
+        "water_0/rep15/",
+        "water_0/rep16/",
+        "water_0/rep2/",
+        "water_0/rep3/",
+        "water_0/rep4/",
+        "water_0/rep5/",
+        "water_0/rep6/",
+        "water_0/rep7/",
+        "water_0/rep8/",
+        "water_0/rep9/",
+        "water_0/rep1/Ca_0_1.hdf5"
+      ],
+      "metadata": {
+        "water_0/0_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: n/a\n- Generator amplitude: n/a (NOISE FLOOR MEASUREMENT)\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: n/a\n- Init cond: quiescent\n- Term cond: quiescent\n- Frames: 100 k\n- Vib vel @ center: 0 cm/s"
+      },
+      "repeat_directories": [
+        "water_0/rep1/",
+        "water_0/rep10/",
+        "water_0/rep11/",
+        "water_0/rep12/",
+        "water_0/rep13/",
+        "water_0/rep14/",
+        "water_0/rep15/",
+        "water_0/rep16/",
+        "water_0/rep2/",
+        "water_0/rep3/",
+        "water_0/rep4/",
+        "water_0/rep5/",
+        "water_0/rep6/",
+        "water_0/rep7/",
+        "water_0/rep8/",
+        "water_0/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_2_1.zip/download",
+      "ca": 0.00025,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "200367347743",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1172,
+      "prefix_members": [
+        "water_0p00025/0.00025_params.md",
+        "water_0p00025/rep1/",
+        "water_0p00025/rep10/",
+        "water_0p00025/rep11/",
+        "water_0p00025/rep12/",
+        "water_0p00025/rep13/",
+        "water_0p00025/rep14/",
+        "water_0p00025/rep15/",
+        "water_0p00025/rep16/",
+        "water_0p00025/rep2/",
+        "water_0p00025/rep3/",
+        "water_0p00025/rep4/",
+        "water_0p00025/rep5/",
+        "water_0p00025/rep6/",
+        "water_0p00025/rep7/",
+        "water_0p00025/rep8/",
+        "water_0p00025/rep9/",
+        "water_0p00025/rep1/Ca_0.00025_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00025/0.00025_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.04 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 2.1 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 1.827 cm/s"
+      },
+      "repeat_directories": [
+        "water_0p00025/rep1/",
+        "water_0p00025/rep10/",
+        "water_0p00025/rep11/",
+        "water_0p00025/rep12/",
+        "water_0p00025/rep13/",
+        "water_0p00025/rep14/",
+        "water_0p00025/rep15/",
+        "water_0p00025/rep16/",
+        "water_0p00025/rep2/",
+        "water_0p00025/rep3/",
+        "water_0p00025/rep4/",
+        "water_0p00025/rep5/",
+        "water_0p00025/rep6/",
+        "water_0p00025/rep7/",
+        "water_0p00025/rep8/",
+        "water_0p00025/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_3_1.zip/download",
+      "ca": 0.00066,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "208160108111",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1190,
+      "prefix_members": [
+        "water_0p00066/0.00066_params.md",
+        "water_0p00066/rep1/",
+        "water_0p00066/rep10/",
+        "water_0p00066/rep11/",
+        "water_0p00066/rep12/",
+        "water_0p00066/rep13/",
+        "water_0p00066/rep14/",
+        "water_0p00066/rep15/",
+        "water_0p00066/rep16/",
+        "water_0p00066/rep2/",
+        "water_0p00066/rep3/",
+        "water_0p00066/rep4/",
+        "water_0p00066/rep5/",
+        "water_0p00066/rep6/",
+        "water_0p00066/rep7/",
+        "water_0p00066/rep8/",
+        "water_0p00066/rep9/",
+        "water_0p00066/rep1/Ca_0.00066_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00066/0.00066_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.07 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 3.3 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 4.805 cm/s (estimated from calibration curve)"
+      },
+      "repeat_directories": [
+        "water_0p00066/rep1/",
+        "water_0p00066/rep10/",
+        "water_0p00066/rep11/",
+        "water_0p00066/rep12/",
+        "water_0p00066/rep13/",
+        "water_0p00066/rep14/",
+        "water_0p00066/rep15/",
+        "water_0p00066/rep16/",
+        "water_0p00066/rep2/",
+        "water_0p00066/rep3/",
+        "water_0p00066/rep4/",
+        "water_0p00066/rep5/",
+        "water_0p00066/rep6/",
+        "water_0p00066/rep7/",
+        "water_0p00066/rep8/",
+        "water_0p00066/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_4_1.zip/download",
+      "ca": 0.00067,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "206919599509",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1173,
+      "prefix_members": [
+        "water_0p00067/0.00067_params.md",
+        "water_0p00067/rep1/",
+        "water_0p00067/rep10/",
+        "water_0p00067/rep11/",
+        "water_0p00067/rep12/",
+        "water_0p00067/rep13/",
+        "water_0p00067/rep14/",
+        "water_0p00067/rep15/",
+        "water_0p00067/rep16/",
+        "water_0p00067/rep2/",
+        "water_0p00067/rep3/",
+        "water_0p00067/rep4/",
+        "water_0p00067/rep5/",
+        "water_0p00067/rep6/",
+        "water_0p00067/rep7/",
+        "water_0p00067/rep8/",
+        "water_0p00067/rep9/",
+        "water_0p00067/rep1/Ca_0.00067_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00067/0.00067_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.08 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 3.9 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 4.872 cm/s "
+      },
+      "repeat_directories": [
+        "water_0p00067/rep1/",
+        "water_0p00067/rep10/",
+        "water_0p00067/rep11/",
+        "water_0p00067/rep12/",
+        "water_0p00067/rep13/",
+        "water_0p00067/rep14/",
+        "water_0p00067/rep15/",
+        "water_0p00067/rep16/",
+        "water_0p00067/rep2/",
+        "water_0p00067/rep3/",
+        "water_0p00067/rep4/",
+        "water_0p00067/rep5/",
+        "water_0p00067/rep6/",
+        "water_0p00067/rep7/",
+        "water_0p00067/rep8/",
+        "water_0p00067/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_5_1.zip/download",
+      "ca": 0.00083,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "206789740625",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1171,
+      "prefix_members": [
+        "water_0p00083/0.00083_params.md",
+        "water_0p00083/rep1/",
+        "water_0p00083/rep10/",
+        "water_0p00083/rep11/",
+        "water_0p00083/rep12/",
+        "water_0p00083/rep13/",
+        "water_0p00083/rep14/",
+        "water_0p00083/rep15/",
+        "water_0p00083/rep16/",
+        "water_0p00083/rep2/",
+        "water_0p00083/rep3/",
+        "water_0p00083/rep4/",
+        "water_0p00083/rep5/",
+        "water_0p00083/rep6/",
+        "water_0p00083/rep7/",
+        "water_0p00083/rep8/",
+        "water_0p00083/rep9/",
+        "water_0p00083/rep1/Ca_0.00083_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00083/0.00083_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.1 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 4.9 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 6.051 cm/s "
+      },
+      "repeat_directories": [
+        "water_0p00083/rep1/",
+        "water_0p00083/rep10/",
+        "water_0p00083/rep11/",
+        "water_0p00083/rep12/",
+        "water_0p00083/rep13/",
+        "water_0p00083/rep14/",
+        "water_0p00083/rep15/",
+        "water_0p00083/rep16/",
+        "water_0p00083/rep2/",
+        "water_0p00083/rep3/",
+        "water_0p00083/rep4/",
+        "water_0p00083/rep5/",
+        "water_0p00083/rep6/",
+        "water_0p00083/rep7/",
+        "water_0p00083/rep8/",
+        "water_0p00083/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_6_1.zip/download",
+      "ca": 0.00115,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "208183278582",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1173,
+      "prefix_members": [
+        "water_0p00115/0.00115_params.md",
+        "water_0p00115/rep1/",
+        "water_0p00115/rep10/",
+        "water_0p00115/rep11/",
+        "water_0p00115/rep12/",
+        "water_0p00115/rep13/",
+        "water_0p00115/rep14/",
+        "water_0p00115/rep15/",
+        "water_0p00115/rep16/",
+        "water_0p00115/rep2/",
+        "water_0p00115/rep3/",
+        "water_0p00115/rep4/",
+        "water_0p00115/rep5/",
+        "water_0p00115/rep6/",
+        "water_0p00115/rep7/",
+        "water_0p00115/rep8/",
+        "water_0p00115/rep9/",
+        "water_0p00115/rep1/Ca_0.00115_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00115/0.00115_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.15 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 7.2 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 8.362 cm/s "
+      },
+      "repeat_directories": [
+        "water_0p00115/rep1/",
+        "water_0p00115/rep10/",
+        "water_0p00115/rep11/",
+        "water_0p00115/rep12/",
+        "water_0p00115/rep13/",
+        "water_0p00115/rep14/",
+        "water_0p00115/rep15/",
+        "water_0p00115/rep16/",
+        "water_0p00115/rep2/",
+        "water_0p00115/rep3/",
+        "water_0p00115/rep4/",
+        "water_0p00115/rep5/",
+        "water_0p00115/rep6/",
+        "water_0p00115/rep7/",
+        "water_0p00115/rep8/",
+        "water_0p00115/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_7_1.zip/download",
+      "ca": 0.00156,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "211638793580",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1171,
+      "prefix_members": [
+        "water_0p00156/0.00156_params.md",
+        "water_0p00156/rep1/",
+        "water_0p00156/rep10/",
+        "water_0p00156/rep11/",
+        "water_0p00156/rep12/",
+        "water_0p00156/rep13/",
+        "water_0p00156/rep14/",
+        "water_0p00156/rep15/",
+        "water_0p00156/rep16/",
+        "water_0p00156/rep2/",
+        "water_0p00156/rep3/",
+        "water_0p00156/rep4/",
+        "water_0p00156/rep5/",
+        "water_0p00156/rep6/",
+        "water_0p00156/rep7/",
+        "water_0p00156/rep8/",
+        "water_0p00156/rep9/",
+        "water_0p00156/rep1/Ca_0.00156_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00156/0.00156_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.18 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 8 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 11.351 cm/s "
+      },
+      "repeat_directories": [
+        "water_0p00156/rep1/",
+        "water_0p00156/rep10/",
+        "water_0p00156/rep11/",
+        "water_0p00156/rep12/",
+        "water_0p00156/rep13/",
+        "water_0p00156/rep14/",
+        "water_0p00156/rep15/",
+        "water_0p00156/rep16/",
+        "water_0p00156/rep2/",
+        "water_0p00156/rep3/",
+        "water_0p00156/rep4/",
+        "water_0p00156/rep5/",
+        "water_0p00156/rep6/",
+        "water_0p00156/rep7/",
+        "water_0p00156/rep8/",
+        "water_0p00156/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_8_1.zip/download",
+      "ca": 0.00176,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "208566778053",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1171,
+      "prefix_members": [
+        "water_0p00176/0.00176_params.md",
+        "water_0p00176/rep1/",
+        "water_0p00176/rep10/",
+        "water_0p00176/rep11/",
+        "water_0p00176/rep12/",
+        "water_0p00176/rep13/",
+        "water_0p00176/rep14/",
+        "water_0p00176/rep15/",
+        "water_0p00176/rep16/",
+        "water_0p00176/rep2/",
+        "water_0p00176/rep3/",
+        "water_0p00176/rep4/",
+        "water_0p00176/rep5/",
+        "water_0p00176/rep6/",
+        "water_0p00176/rep7/",
+        "water_0p00176/rep8/",
+        "water_0p00176/rep9/",
+        "water_0p00176/rep1/Ca_0.00176_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00176/0.00176_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.2 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 9.2 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 12.823 cm/s "
+      },
+      "repeat_directories": [
+        "water_0p00176/rep1/",
+        "water_0p00176/rep10/",
+        "water_0p00176/rep11/",
+        "water_0p00176/rep12/",
+        "water_0p00176/rep13/",
+        "water_0p00176/rep14/",
+        "water_0p00176/rep15/",
+        "water_0p00176/rep16/",
+        "water_0p00176/rep2/",
+        "water_0p00176/rep3/",
+        "water_0p00176/rep4/",
+        "water_0p00176/rep5/",
+        "water_0p00176/rep6/",
+        "water_0p00176/rep7/",
+        "water_0p00176/rep8/",
+        "water_0p00176/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_9_1.zip/download",
+      "ca": 0.00199,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "201599527156",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 1172,
+      "prefix_members": [
+        "water_0p00199/0.00199_params.md",
+        "water_0p00199/rep1/",
+        "water_0p00199/rep10/",
+        "water_0p00199/rep11/",
+        "water_0p00199/rep12/",
+        "water_0p00199/rep13/",
+        "water_0p00199/rep14/",
+        "water_0p00199/rep15/",
+        "water_0p00199/rep16/",
+        "water_0p00199/rep2/",
+        "water_0p00199/rep3/",
+        "water_0p00199/rep4/",
+        "water_0p00199/rep5/",
+        "water_0p00199/rep6/",
+        "water_0p00199/rep7/",
+        "water_0p00199/rep8/",
+        "water_0p00199/rep9/",
+        "water_0p00199/rep1/Ca_0.00199_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00199/0.00199_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.25 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 11.8 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 14.46 cm/s "
+      },
+      "repeat_directories": [
+        "water_0p00199/rep1/",
+        "water_0p00199/rep10/",
+        "water_0p00199/rep11/",
+        "water_0p00199/rep12/",
+        "water_0p00199/rep13/",
+        "water_0p00199/rep14/",
+        "water_0p00199/rep15/",
+        "water_0p00199/rep16/",
+        "water_0p00199/rep2/",
+        "water_0p00199/rep3/",
+        "water_0p00199/rep4/",
+        "water_0p00199/rep5/",
+        "water_0p00199/rep6/",
+        "water_0p00199/rep7/",
+        "water_0p00199/rep8/",
+        "water_0p00199/rep9/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_10_1.zip/download",
+      "ca": 0.00284,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "190345734189",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 494,
+      "prefix_members": [
+        "water_0p00284/",
+        "water_0p00284/0.00284_params.md",
+        "water_0p00284/rep1/",
+        "water_0p00284/rep1/Ca_0.00284_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00284/0.00284_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.3 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 13.7 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 20.675 cm/s (estimated from calibration curve)"
+      },
+      "repeat_directories": [
+        "water_0p00284/rep1/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    },
+    {
+      "url": "https://library.ucsd.edu/dc/object/bb9811148n/_11_1.zip/download",
+      "ca": 0.00332,
+      "http_status": 200,
+      "headers": {
+        "Content-Length": "191340128154",
+        "Content-Range": null,
+        "Content-Type": "application/zip"
+      },
+      "bytes_read": 494,
+      "prefix_members": [
+        "water_0p00332/",
+        "water_0p00332/0.00332_params.md",
+        "water_0p00332/rep1/",
+        "water_0p00332/rep1/Ca_0.00332_1.hdf5"
+      ],
+      "metadata": {
+        "water_0p00332/0.00332_params.md": "- Experimenter: Lei Zhang\n- Generator frequency: 6.905 MHz\n- Generator amplitude: 0.35 Vpp\n- Geometry: thin film, 3/8 circular kapton pool\n- Volume: 40 ul\n- Calibration state: quiescent\n- Magnification: 10x\n- Speed: 115.2 kfps\n- Scope Vpp: 15.9 Vpp\n- Init cond: dynamic\n- Term cond: dynamic\n- Frames: 100 k\n- Vib vel @ center: 24.1696 cm/s (estimated from calibration curve)"
+      },
+      "repeat_directories": [
+        "water_0p00332/rep1/"
+      ],
+      "status": "Metadata only. Range ignored; large HDF5 payload precedes accessible CSV files."
+    }
+  ],
+  "new_trials_scored": 0,
+  "caveat": "Distinct collection dates establish new recordings, not independent apparatus or IID experimental conditions."
+}

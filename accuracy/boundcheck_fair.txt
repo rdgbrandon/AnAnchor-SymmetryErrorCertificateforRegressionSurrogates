@@ -1,0 +1,32 @@
+BELOW-ERROR RATES, EQUAL-LABEL BASELINES (399 rows)
+Every method here sees the same 3-4 law-calibration labels.
+below  = fraction of rows with score <= the measured error
+useful = below AND score > 1, so below the error and still saying something
+An infinite score can never be below the error and is counted as not below.
+
+method                claims              finite    below  score/e   speaks   useful    worst+
+----------------------------------------------------------------------------------------------
+SASES consensus       lower (Prop. 1)      1.000    1.000     0.70    0.825    0.825     -0.46
+Raw defect            none                 1.000    0.248     1.28    1.000    0.248     10.84
+Calibration maximum   none                 1.000    0.892     0.77    1.000    0.892     10.27
+OLS error predictor   none                 1.000    0.291     1.24    0.972    0.263     15.72
+Split conformal       upper (90%)          0.000    0.000     --      1.000    0.000      --  
+Jackknife+ upper      upper (95%)          0.000    0.000     --      1.000    0.000      --  
+Jackknife+ nominal    upper (90%)          0.000    0.000     --      1.000    0.000      --  
+
+
+READ AS UPPER BOUNDS INSTEAD
+Raw defect and the OLS predictor have a median above the error, so the
+lower-bound reading misjudges them. Scored as upper bounds: how often is
+the score at or above the measured error, and by how much.
+A score that is infinite is above the error trivially, hence two columns.
+
+method                claims              finite    above fin.&above  score/e med slack worst miss
+--------------------------------------------------------------------------------------------------
+SASES consensus       lower (Prop. 1)      1.000    0.000      0.000     0.70      --        28.71
+Raw defect            none                 1.000    0.752      0.752     1.28      3.38      11.05 <
+Calibration maximum   none                 1.000    0.108      0.108     0.77      1.01     266.45
+OLS error predictor   none                 1.000    0.709      0.709     1.24      3.02     141.55 <
+Split conformal       upper (90%)          0.000    1.000      0.000     --        --         --  
+Jackknife+ upper      upper (95%)          0.000    1.000      0.000     --        --         --  
+Jackknife+ nominal    upper (90%)          0.000    1.000      0.000     --        --         --  

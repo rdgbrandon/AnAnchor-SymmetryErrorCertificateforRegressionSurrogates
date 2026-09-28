@@ -1,0 +1,79 @@
+[
+ {
+  "method": "SASES consensus",
+  "claim": "lower (Prop. 1)",
+  "n": 399,
+  "finite": 1.0,
+  "above_rate": 0.0,
+  "finite_and_above": 0.0,
+  "median_ratio": 0.7043645547162273,
+  "median_excess": null,
+  "worst_shortfall": 28.713123593335297
+ },
+ {
+  "method": "Raw defect",
+  "claim": "none",
+  "n": 399,
+  "finite": 1.0,
+  "above_rate": 0.7518796992481203,
+  "finite_and_above": 0.7518796992481203,
+  "median_ratio": 1.2825818875019375,
+  "median_excess": 3.3808419390926163,
+  "worst_shortfall": 11.05128091814413
+ },
+ {
+  "method": "Calibration maximum",
+  "claim": "none",
+  "n": 399,
+  "finite": 1.0,
+  "above_rate": 0.10776942355889724,
+  "finite_and_above": 0.10776942355889724,
+  "median_ratio": 0.7659743177251503,
+  "median_excess": 1.0149214896976524,
+  "worst_shortfall": 266.4548218302259
+ },
+ {
+  "method": "OLS error predictor",
+  "claim": "none",
+  "n": 399,
+  "finite": 1.0,
+  "above_rate": 0.7092731829573935,
+  "finite_and_above": 0.7092731829573935,
+  "median_ratio": 1.2376830410835618,
+  "median_excess": 3.0235179569718325,
+  "worst_shortfall": 141.55002205522044
+ },
+ {
+  "method": "Split conformal",
+  "claim": "upper (90%)",
+  "n": 399,
+  "finite": 0.0,
+  "above_rate": 1.0,
+  "finite_and_above": 0.0,
+  "median_ratio": null,
+  "median_excess": null,
+  "worst_shortfall": null
+ },
+ {
+  "method": "Jackknife+ upper",
+  "claim": "upper (95%)",
+  "n": 399,
+  "finite": 0.0,
+  "above_rate": 1.0,
+  "finite_and_above": 0.0,
+  "median_ratio": null,
+  "median_excess": null,
+  "worst_shortfall": null
+ },
+ {
+  "method": "Jackknife+ nominal",
+  "claim": "upper (90%)",
+  "n": 399,
+  "finite": 0.0,
+  "above_rate": 1.0,
+  "finite_and_above": 0.0,
+  "median_ratio": null,
+  "median_excess": null,
+  "worst_shortfall": null
+ }
+]

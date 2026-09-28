@@ -1,0 +1,66 @@
+SAMPLE CASES: THE CERTIFICATE AGAINST THE ERROR IT BOUNDS
+S = [D - b - beta]+   is a LOWER bound, so the quantity of interest is the
+gap e - S: how much of the surrogate's real error the certificate misses.
+
+
+=== One case, fully worked (Prop. 1 form) ===
+config canonical_192   surrogate mlp8 seed 0   test trial _60_1 at 250 mW
+anchor _42_1   ceiling 192 mW   delta = ln(P/P_lawmax) = 0.264
+
+  defect         D        =  14.501   two predictions vs the law
+  anchor allow.  b        =   7.003   conformal LOTO bound
+  law allowance  beta     =   2.412   fitted kappa x delta
+  certificate    S        =   5.086   = max(D - b - beta, 0)
+  measured error e        =  10.911   NOT available at deployment
+------------------------------------------------------------
+  gap            e - S    =   5.825   the bound misses this much
+  proved fraction S/e     =    46.6%
+  law residual   ||zeta|| =   2.710   premise needs zeta <= beta: VIOLATED
+
+
+=== Sample of individual cases, fitted kappa, conformal b ===
+config   model       sd   P mW       D       b    beta       S       e     gap    S/e
+-------------------------------------------------------------------------------------
+192      linear       0    250   14.11    6.37    2.41    5.33   13.45    8.12   0.40
+192      mlp16x16     0    250    4.90    5.63    2.41    0.00    3.74    3.74   0.00
+192      mlp16x16     1    250    5.41    4.98    2.41    0.00    3.42    3.42   0.00
+192      mlp16x16     2    250    9.93    4.75    2.41    2.77    6.31    3.54   0.44
+192      mlp8         0    250   14.50    7.00    2.41    5.09   10.91    5.82   0.47
+192      mlp8         1    250   14.06    6.97    2.41    4.68   10.49    5.81   0.45
+192      mlp8         2    250   14.03    7.14    2.41    4.47   10.36    5.89   0.43
+192      linear       0    300   15.93    6.37    4.08    5.48   14.19    8.71   0.39
+192      mlp16x16     0    300    5.62    5.63    4.08    0.00    4.15    4.15   0.00
+192      mlp16x16     1    300    5.92    4.98    4.08    0.00    3.97    3.97   0.00
+192      mlp16x16     2    300   12.06    4.75    4.08    3.23    7.57    4.34   0.43
+192      mlp8         0    300   16.93    7.00    4.08    5.85   12.53    6.68   0.47
+192      mlp8         1    300   16.48    6.97    4.08    5.43   12.07    6.64   0.45
+192      mlp8         2    300   16.45    7.14    4.08    5.23   11.95    6.72   0.44
+192      linear       0    350   17.48    6.37    5.49    5.63   14.86    9.23   0.38
+192      mlp16x16     0    350    6.27    5.63    5.49    0.00    4.74    4.74   0.00
+192      mlp16x16     1    350    6.51    4.98    5.49    0.00    4.95    4.95   0.00
+192      mlp16x16     2    350   13.92    4.75    5.49    3.68    8.59    4.90   0.43
+192      mlp8         0    350   18.98    7.00    5.49    6.50   13.77    7.28   0.47
+192      mlp8         1    350   18.52    6.97    5.49    6.06   13.29    7.23   0.46
+192      mlp8         2    350   18.51    7.14    5.49    5.88   13.17    7.30   0.45
+
+
+=== How close does it get? Gap e - S over all canonical rows ===
+variant                  n  min gap   median  max gap  med S/e best S/e
+-----------------------------------------------------------------------
+fitted kappa            21     3.42     5.82     9.23    0.429    0.472
+2x declared             21     3.42     8.30    14.72    0.043    0.245
+theory slope            49     3.10     7.89    14.86    0.123    0.399
+slope + boundary        49     3.10     8.57    14.86    0.062    0.316
+ceiling form            78     1.01     2.53     9.25    0.760    0.927
+
+
+=== Where the remaining gap lives, fitted kappa ===
+The bound gives away exactly b + beta, plus whatever of the error the
+defect never saw. Averages over the canonical rows:
+  mean measured error      e        =   9.45
+  mean certificate         S        =   3.59
+  mean anchor allowance    b        =   6.12  given away by construction
+  mean law allowance       beta     =   3.99  given away by construction
+  mean defect              D        =  12.69
+  mean e - D                        =  -3.24  error the defect never sees
+  mean law residual        ||zeta|| =   3.98  what beta must cover
